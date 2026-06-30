@@ -1,0 +1,4 @@
+Second highest value
+
+Find the second-highest salary in an employees(id, name, salary, department_id) table without using LIMIT/OFFSET (since not all engines support it). 
+Then extend it to find the Nth highest per department.

@@ -1,0 +1,5 @@
+Given a table logins(user_id, login_date), write a query to find the number of distinct users who logged in during each calendar month.
+
+SELECT month(login_date) as month_, count(distinct user_id)
+FROM logins
+GROUP BY month(login_date)
